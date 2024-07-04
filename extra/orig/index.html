@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Goal Bar
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	
+	<h1>Progressive Goal Bar</h1>
+	<div>
+		<button id="play">Play</button>
+		<button id="pause">Pause</button>
+		<button id="reset">Reset</button>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="goal-bar">
+	    <a class="center" href="#">		
+			<em class="fire">.</em>
+			<em class="fire" style="animation-delay: .1s; -webkit-animation-delay: .1s; -moz-animation-delay: .1s; -ms-animation-delay: .1s;">-</em>
+			<em class="fire" style="animation-delay: .2s; -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -ms-animation-delay: .2s;">-</em>
+			<em class="fire" style="animation-delay: .6s; -webkit-animation-delay: .6s; -moz-animation-delay: .6s; -ms-animation-delay: .6s;">-</em>
+			<em class="fire" style="animation-delay: .4s; -webkit-animation-delay: .4s; -moz-animation-delay: .4s; -ms-animation-delay: .4s;">c</em>	
+			<em class="fire" style="animation-delay: .4s; -webkit-animation-delay: .4s; -moz-animation-delay: .4s; -ms-animation-delay: .4s;">c</em>	
+			<em class="fire" style="top: 5px;animation-delay: .4s; -webkit-animation-delay: .4s; -moz-animation-delay: .4s; -ms-animation-delay: .4s;">/</em>
+			<em class="fire" style="top: 5px;animation-delay: .6s; -webkit-animation-delay: .6s; -moz-animation-delay: .6s; -ms-animation-delay: .6s;">/</em>
+			<em class="fire" style="top: -10px;animation-delay: .6s; -webkit-animation-delay: .6s; -moz-animation-delay: .6s; -ms-animation-delay: .6s;">C</em>
+			<em class="fire" style="top: -10px;animation-delay: .6s; -webkit-animation-delay: .6s; -moz-animation-delay: .6s; -ms-animation-delay: .6s;">C</em>	
+			<em class="fire" style="top: -10px;animation-delay: .6s; -webkit-animation-delay: .6s; -moz-animation-delay: .6s; -ms-animation-delay: .6s;">/</em>						
+			<em class="fire" style="top: -10px;animation-delay: .6s; -webkit-animation-delay: .6s; -moz-animation-delay: .6s; -ms-animation-delay: .6s;">/</em>						
+			<em class="fire" style="top: -10px;animation-delay: 1s; -webkit-animation-delay: 1s; -moz-animation-delay: 1s; -ms-animation-delay: 1s;">o</em>
+			<em class="fire" style="top: -15px;animation-delay: 1s; -webkit-animation-delay: 1s; -moz-animation-delay: 1s; -ms-animation-delay: 1s;">|</em>	
+			<em class="fire" style="top: -20px;animation-delay: 1s; -webkit-animation-delay: 1s; -moz-animation-delay: 1s; -ms-animation-delay: 1s;">/</em>
+			<em class="fire" style="top: -25px;animation-delay: 1s; -webkit-animation-delay: 1s; -moz-animation-delay: 1s; -ms-animation-delay: 1s;">|</em>	
+			<em class="fire" style="top: -30px; animation-delay: .2s; -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -ms-animation-delay: .2s;">(</em>		
+			<em class="fire" style="top: -30px; animation-delay: .2s; -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -ms-animation-delay: .2s;">(</em>		
+			<em class="fire" style="top: -30px; animation-delay: .2s; -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -ms-animation-delay: .2s;">}</em>							
+			<em class="fire" style="top: -20px; left: -10px; animation-delay: .2s; -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -ms-animation-delay: .2s;">*</em>							
+			<br/>
+			<br/>
+			</a>
+        <div class="goal-ind">        	
+        </div>
+	</div>
+	<div class="stats">
+	    <span id="score">0</span> %
+	    <div class="progress-bar">
+	        <div class="progress-ind"></div>			
+	    </div>
+	</div>
+</body>
+</html>

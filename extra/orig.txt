@@ -1,0 +1,14 @@
+We are looking for someone who can create a unique goal bar.
+
+We created a really bad example image, but hopefully this will help visualize it.
+-Bad Example Image Link: https://drive.google.com/open?id=0BwE5HDbzCccRS0U0XzhZY1psdkE
+
+There is already a flame CSS effect that looks great animated that we would like the goal bar to be developed from. 
+-CSS Effect Link:  pag.es/fire/test.html# 
+
+We have not found any burnt effects. Hoping you can come up with a nice looking quality burnt effect.
+
+Goal bar properties 610 x 45px
+1-100% normal goal progress bar
+101-200% Gradual increasing animated flame with different layered colors based on percent
+201-300% Gradual increasing burnt effect of goal bar (most of the goal bar will be visible in the background) based on percent
